@@ -1,0 +1,17 @@
+.main-header {
+  position: relative;
+  width: 100%;
+  height: 6rem;
+  display: flex;
+  background: #741188;
+  padding: 0 35rem;
+}
+.main-header h1 {
+  color: white;
+}
+
+@media (max-width:768px){
+    .main-header{
+        padding: 0 13rem;
+    }
+}
