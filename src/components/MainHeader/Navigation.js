@@ -1,11 +1,11 @@
 import React, { useContext } from 'react';
 import classes from './Navigation.module.css';
-import AuthContext from '../../store/auth-context';
+import { AuthContext } from '../../store/auth-context';
 
 const Navigation = () => {
 
     //Method 1 to use Context
-    const ctx = useContext(AuthContext);//using context
+    const ctx = useContext(AuthContext);//fetching global context
 
     return (
         < nav className={classes.nav} >
